@@ -182,8 +182,7 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
-        # Параметр script передаёт в action appleboy/ssh-action команды,
-        # которые нужно выполнить на сервере, 
+        # Параметр script передаёт в action appleboy/ssh-action команды, 
         # с которым установлено соединение
         script: |
           cd taski
